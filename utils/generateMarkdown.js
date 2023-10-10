@@ -8,6 +8,7 @@ function renderLicenseBadge(license) {
 
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBade(data.license)}
 
 `;
 }
